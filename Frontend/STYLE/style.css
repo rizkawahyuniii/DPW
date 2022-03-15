@@ -1,0 +1,30 @@
+p{
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: italic;
+    background-color: rgb(172, 0, 0);
+    color: black;
+    text-align: center;
+}
+
+.p1 p{
+    background-color: chocolate;
+    color: blue;
+    text-align: justify;
+    /*text-decoration-line: underline;
+    text-decoration-color: bisque; */
+    text-decoration-line: underline rgb(157, 255, 0);
+    text-indent: 50px;
+    /*letter-spacing: 10px;*/
+    word-spacing: 10px;
+}
+
+.header p {
+    min-height: 100vh;
+    width: auto;
+    background-image: url(/Frontend/IMAGE/wallpapersden.com_sky-clouds-pink_wxl.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
